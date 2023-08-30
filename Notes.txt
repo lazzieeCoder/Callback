@@ -1,0 +1,89 @@
+Contents:
+Callback
+What's the callback? - call stack, WebAPI, event loop, queue
+Use & its purpose of the callback
+Pain of callback
+Session reference  - http://latentflip.com/loupe/
+---------------------------------------------------------------------------
+MRF , Addeventlistener
+array.map(()=>{
+                                           
+})
+div.Addeventlistener("click",()=>{
+
+})
+
+callback:- It is a function which uses one more function as a parameter.(map,Addeventlistener).
+Javascript:- single threaded can execute single task at a time.
+synchronous:- It will execute all the code line by line in the order in which it is written.
+Asynchronous :- It will do the task without waiting for a task to complete its execution. 
+
+1.callstack:- 
+It is place in browser where it keeps track of the function that has to be called in the program. 
+It will execute whatever the statements inside it.
+
+2.WebApis :- it is the place where the Asynchronous operations are actually executed.
+
+3.queue :-
+Queue is a datastructure , FIFO  
+it stores the async function which has to be executed next.
+
+4.Eventloop :-
+It is between call stack as well as the event queue.
+The main role of the event loop is to check whether the call stack is empty or not.
+if it is empty it will push the code from queue and pass it to call stack
+the call stack executes the function
+
+pain of callback => callback Hell
+(()=>{
+    (()=>{
+
+    })
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
