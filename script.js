@@ -31,7 +31,7 @@ console.log("c")
 */
 
 //!callback hell
-setTimeout(() => {
+/*setTimeout(() => {
   console.log("10");
   document.getElementById("display").innerText = "10";
 
@@ -82,3 +82,4 @@ setTimeout(() => {
     }, 1000); //8
   }, 1000); //9
 }, 1000);  //10
+*/
